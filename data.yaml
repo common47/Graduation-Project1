@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Bicycle', 'Car', 'Motorcycle', 'Person']
+
+roboflow:
+  workspace: hankuk-university-of-foregin-studies-wxocc
+  project: traffic-classification-53urf
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/hankuk-university-of-foregin-studies-wxocc/traffic-classification-53urf/dataset/1
